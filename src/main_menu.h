@@ -53,6 +53,7 @@ class main_menu
         // Tab functions. They return whether a game was started or not. The ones that can never
         // start a game have a void return type.
         bool new_character_tab();
+        bool multiplayer_tab();
         bool load_character_tab( bool transfer = false );
         void world_tab();
 
